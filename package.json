@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "4.6.2",
+    "@nuxtjs/color-mode": "^3.2.0",
+    "@nuxtjs/ionic": "^0.8.0",
+    "@nuxtjs/supabase": "^0.3.0",
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "@vue/cli-service": "5.0.8",
+    "autoprefixer": "^10.4.13",
+    "cordova-res": "0.15.4",
+    "nuxt": "3.0.0",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "@capacitor/android": "4.6.2",
+    "@capacitor/app": "^4.1.1",
+    "@capacitor/core": "4.6.2",
+    "@capacitor/haptics": "4.1.0",
+    "@capacitor/keyboard": "4.1.0",
+    "@capacitor/status-bar": "4.1.1",
+    "@ionic/storage": "^3.0.6",
+    "@nuxtjs-alt/axios": "^1.1.0",
+    "@nuxtjs/composition-api": "^0.33.1",
+    "@pinia/nuxt": "^0.4.6",
+    "axios": "^1.2.1",
+    "pinia": "^2.0.28"
+  }
+}
